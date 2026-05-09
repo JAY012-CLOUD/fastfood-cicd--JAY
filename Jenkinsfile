@@ -10,7 +10,7 @@ pipeline {
             steps {
                 echo '📦 ===== STAGE 1: CHECKOUT ====='
                 echo '📥 Cloning repository from GitHub...'
-                git branch: 'main', url: 'https://github.com/vighnesh32/fastfood-cicd-project.git'
+                git branch: 'main', url: 'https://github.com/JAY012-CLOUD/fastfood-cicd--JAY'
                 echo '✅ Repository cloned successfully!'
             }
         }
